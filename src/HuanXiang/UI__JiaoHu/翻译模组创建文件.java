@@ -12,7 +12,7 @@ public class 翻译模组创建文件 {
         主要.writeString("\"displayName\":\"幻想-翻译\",\n", true);
         主要.writeString("\"format\":\"自由\",\n", true);
         主要.writeString("\"description\":\"这是测试><\",\n", true);
-        主要.writeString("\"minGameVersion\":\"145\"\n", true);
+        主要.writeString("\"minGameVersion\":\"136\"\n", true);
         主要.writeString("}", true);
         中文.writeString("\n\n\n#mod作者：自由#\n\n\n");
         中文.writeString("#[#\n", true);
