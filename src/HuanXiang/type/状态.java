@@ -30,6 +30,6 @@ public class 状态 extends StatusEffect {
     public void update(Unit unit, float time){
        super.update(unit,time);
         if (unit.health<unit.maxHealth*抹杀)unit.damage(unit.maxHealth+1);
-        unit.dockedType.update();
+       // unit.dockedType.update();
     }
 }
