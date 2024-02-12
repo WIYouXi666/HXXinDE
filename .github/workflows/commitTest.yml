@@ -1,4 +1,4 @@
-name: Build Mod
+name: 打包mod
 
 on: [push, pull_request]
 
