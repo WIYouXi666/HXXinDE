@@ -8,7 +8,6 @@ import HuanXiang.content.全部翻译;
 import HuanXiang.content.自动生成;
 import HuanXiang.核心内容.全部事件执行;
 import HuanXiang.核心内容.单位状态更新系统;
-import HuanXiang.DawnModJS;
 import arc.Events;
 import arc.files.Fi;
 import arc.util.Log;
@@ -64,7 +63,7 @@ public class HuanXiangMOD extends Mod {
 
         全部事件执行.load();
 
-DawnModJS.DawnMods();
+
     }
     @Override
     public void init() {
