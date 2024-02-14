@@ -1,17 +1,4 @@
-DawnModJS.RunName.add("hxlid")
-DawnModJS.DawnRun.add(run(() => {
-	new JiaoHu("沙币") {
 
-            
-           JiaZaiSheZhi(Table ggg) {
-
-                dialog.cont.pane(t => {
-                t.add("[yellow]〔2021/4/3为：mod创作始期〕");
-                t.row();
-                )};
-            }
-        };
-}));
 //const urlLoader = Packages.java.net.URLClassLoader([Vars.mods.getMod(modName).file.file().toURI().toURL()], Vars.mods.mainLoader());
 //const getClass = function (name){
 //    return Packages.rhino.NativeJavaClass(Vars.mods.scripts.scope, urlLoader.loadClass(name));
