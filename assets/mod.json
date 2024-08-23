@@ -1,0 +1,14 @@
+{
+
+
+
+
+    "displayName": "幻想主要",
+    "name":"hxlid",
+    "author":"自由/WIYouXi666",
+    "description":"暂无",
+    "version":"0.1",
+    "minGameVersion":"146",
+    "main": "MODS.HuanXiangMOD",
+    "java": true
+}
