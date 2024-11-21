@@ -33,23 +33,13 @@ allprojects{
         options.compilerArgs.addAll(['--release', '8'])
     }
 }
-//kkk{
-//
-//   //compileOnly fileTree(dir: 'lib', include: ['*.jar'])
-//    compileOnly "com.github.Anuken.Arc:arc-core:$mindustryVersion"
-//    compileOnly "com.github.Anuken.Mindustry:core:$mindustryVersion"
-//    annotationProcessor "com.github.anuken:jabel:$jabelVersion"
-//
-//}
+
 dependencies{
-//    compileOnly fileTree(dir: 'lib', include: ['*.jar'])
-//    implementation fileTree(dir: 'lib2', include: ['*.jar'])
+
 
     implementation 'cn.hutool:hutool-all:5.8.33'
-    implementation 'com.github.MEEPofFaith:MindustryBlackHoleRenderer:v16'//黑洞
     compileOnly "com.github.Anuken.Arc:arc-core:v146"
     compileOnly "com.github.Anuken.Mindustry:core:v146"
-
     annotationProcessor "com.github.anuken:jabel:93fde537c7"
 
 }
